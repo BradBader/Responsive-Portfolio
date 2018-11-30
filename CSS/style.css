@@ -193,11 +193,13 @@ footer {
     color: white;
     background-color: #666666;
     width: 100%;
-    height:8%;
+    height:5%;
     border-top: solid 3px teal;
     position: fixed;
     left: 0;
     bottom:0;
+    padding-top: 0px;
+    padding-bottom: 10px;
 }
 
 #C{
@@ -258,6 +260,7 @@ footer {
     .col1 {
         background-color: teal;
         align-content: center;
+        max-width: 100%;
     }
 
     .col2 {
